@@ -2,10 +2,9 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
-    <TargetDatabaseName>Database1</TargetDatabaseName>
+    <TargetDatabaseName>Elektra</TargetDatabaseName>
     <DeployScriptFileName>Database1.sql</DeployScriptFileName>
-    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
-    <ScriptDatabaseOptions>False</ScriptDatabaseOptions>
     <ProfileVersionNumber>1</ProfileVersionNumber>
+    <TargetConnectionString>Data Source=10.160.65.15;Initial Catalog=Elektra;Persist Security Info=True;User ID=ElektraUser;Password=ElektraUser1;multisubnetfailover=true;</TargetConnectionString>
   </PropertyGroup>
 </Project>
