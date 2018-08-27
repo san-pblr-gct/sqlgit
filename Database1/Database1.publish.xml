@@ -4,7 +4,7 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>Elektra</TargetDatabaseName>
     <DeployScriptFileName>Database1.sql</DeployScriptFileName>
-    <TargetConnectionString>Data Source=10.160.65.15;Persist Security Info=True;User ID=santhosh.kumar;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <TargetConnectionString>Data Source=10.160.65.15;Persist Security Info=True;User ID=santhosh.kumar;Password=Elektra@10;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
     <ScriptDatabaseOptions>False</ScriptDatabaseOptions>
