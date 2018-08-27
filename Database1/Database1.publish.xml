@@ -4,10 +4,64 @@
     <IncludeCompositeObjects>True</IncludeCompositeObjects>
     <TargetDatabaseName>Elektra</TargetDatabaseName>
     <DeployScriptFileName>Database1.sql</DeployScriptFileName>
+    <TargetConnectionString>Data Source=10.160.65.15;Persist Security Info=True;User ID=santhosh.kumar;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <ProfileVersionNumber>1</ProfileVersionNumber>
     <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
     <ScriptDatabaseOptions>False</ScriptDatabaseOptions>
-    <ProfileVersionNumber>1</ProfileVersionNumber>
-	 <TargetConnectionString>Data Source=10.160.65.15;Initial Catalog=Elektra;Persist Security Info=True;User ID=santhosh.kumar;Password=Elektra@10;multisubnetfailover=true;</TargetConnectionString>
-  
+    <ExcludeAggregates>True</ExcludeAggregates>
+    <ExcludeApplicationRoles>True</ExcludeApplicationRoles>
+    <ExcludeAssemblies>True</ExcludeAssemblies>
+    <ExcludeAsymmetricKeys>True</ExcludeAsymmetricKeys>
+    <ExcludeAudits>True</ExcludeAudits>
+    <ExcludeBrokerPriorities>True</ExcludeBrokerPriorities>
+    <ExcludeCertificates>True</ExcludeCertificates>
+    <ExcludeClrUserDefinedTypes>True</ExcludeClrUserDefinedTypes>
+    <ExcludeColumnEncryptionKeys>True</ExcludeColumnEncryptionKeys>
+    <ExcludeColumnMasterKeys>True</ExcludeColumnMasterKeys>
+    <ExcludeContracts>True</ExcludeContracts>
+    <ExcludeCredentials>True</ExcludeCredentials>
+    <ExcludeCryptographicProviders>True</ExcludeCryptographicProviders>
+    <ExcludeDatabaseAuditSpecifications>True</ExcludeDatabaseAuditSpecifications>
+    <ExcludeDatabaseRoles>True</ExcludeDatabaseRoles>
+    <ExcludeDatabaseScopedCredentials>True</ExcludeDatabaseScopedCredentials>
+    <ExcludeDefaults>True</ExcludeDefaults>
+    <ExcludeEndpoints>True</ExcludeEndpoints>
+    <ExcludeErrorMessages>True</ExcludeErrorMessages>
+    <ExcludeEventNotifications>True</ExcludeEventNotifications>
+    <ExcludeEventSessions>True</ExcludeEventSessions>
+    <ExcludeExternalFileFormats>True</ExcludeExternalFileFormats>
+    <ExcludeExternalTables>True</ExcludeExternalTables>
+    <ExcludeExternalDataSources>True</ExcludeExternalDataSources>
+    <IgnoreExtendedProperties>True</IgnoreExtendedProperties>
+    <ExcludeFileTables>True</ExcludeFileTables>
+    <ExcludeFilegroups>True</ExcludeFilegroups>
+    <ExcludeFullTextCatalogs>True</ExcludeFullTextCatalogs>
+    <ExcludeFullTextStoplists>True</ExcludeFullTextStoplists>
+    <ExcludeLinkedServerLogins>True</ExcludeLinkedServerLogins>
+    <ExcludeLinkedServers>True</ExcludeLinkedServers>
+    <ExcludeMessageTypes>True</ExcludeMessageTypes>
+    <ExcludeLogins>True</ExcludeLogins>
+    <ExcludePartitionFunctions>True</ExcludePartitionFunctions>
+    <ExcludePartitionSchemes>True</ExcludePartitionSchemes>
+    <IgnorePermissions>True</IgnorePermissions>
+    <ExcludeQueues>True</ExcludeQueues>
+    <ExcludeRemoteServiceBindings>True</ExcludeRemoteServiceBindings>
+    <IgnoreRoleMembership>True</IgnoreRoleMembership>
+    <ExcludeRoutes>True</ExcludeRoutes>
+    <ExcludeRules>True</ExcludeRules>
+    <ExcludeSearchPropertyLists>True</ExcludeSearchPropertyLists>
+    <ExcludeSecurityPolicies>True</ExcludeSecurityPolicies>
+    <ExcludeSequences>True</ExcludeSequences>
+    <ExcludeServerAuditSpecifications>True</ExcludeServerAuditSpecifications>
+    <ExcludeServerRoleMembership>True</ExcludeServerRoleMembership>
+    <ExcludeServerRoles>True</ExcludeServerRoles>
+    <ExcludeServerTriggers>True</ExcludeServerTriggers>
+    <ExcludeServices>True</ExcludeServices>
+    <ExcludeSignatures>True</ExcludeSignatures>
+    <ExcludeSymmetricKeys>True</ExcludeSymmetricKeys>
+    <ExcludeUserDefinedDataTypes>True</ExcludeUserDefinedDataTypes>
+    <ExcludeUsers>True</ExcludeUsers>
+    <ExcludeSynonyms>True</ExcludeSynonyms>
+    <ExcludeXmlSchemaCollections>True</ExcludeXmlSchemaCollections>
   </PropertyGroup>
 </Project>

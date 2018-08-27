@@ -15,4 +15,4 @@ go
 
 create proc getdepartment
 as
-select id from department
+select * from department
